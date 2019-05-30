@@ -411,7 +411,7 @@ h2 {
 }
 
 .persoonlijkeGegevens{
-  grid-column-start: 2;
+  grid-column-start: 3;
   grid-column-end: 5;
   color: white;
   font-family: roboto;
@@ -432,6 +432,36 @@ h2 {
 
 
 
+
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+	box-sizing: border-box;
+	
+}
+
+input[type=submit] {
+	width: 100%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+	cursor: pointer;
+	margin-right: 20%;
+}
+
+.label{
+	float: left;
+	font-family: roboto;
+  font-weight: 400;
+}
+
+/*----------------------------Kleur----------------------------*/
 
 .kleur{
   grid-column-start: 1;
